@@ -1,6 +1,9 @@
 " Vim color file
+" desertedocean v0.2b
 " Maintainer:	Shawn Axsom <axm285@gmail.com>
-"               [http://axm285.50webs.com]
+"               [axm285.xena-free.com]
+
+" desertedocean, a colorscheme using the desert colorscheme as a template, based loosely off of desert, oceandeep, and zenburn.
 
 " cool help screens
 " :he group-name
@@ -16,10 +19,10 @@ if version > 580
 		syntax reset
     endif
 endif
-let g:colors_name="shawn"
 
-" Version:	$Id: desert.vim,v 1.6 2003/06/02 19:40:21 fugalh Exp $
-hi Normal	guifg=#FFE9E0 guibg=#283940
+let g:colors_name="desertedocean"
+
+hi Normal	guifg=#FFE9E0 guibg=#102D33
 
 " highlight groups
 "hi Cursor	guibg=#660000 guifg=#AA5522
@@ -34,18 +37,17 @@ hi Cursor	guibg=#007799 guifg=#00D6CC
 hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
 hi Folded	guibg=#337799 guifg=#BBDDCC
 hi FoldColumn	guibg=#337799 guifg=#00CCFF
-hi IncSearch	guifg=slategrey guibg=khaki """
-hi LineNr   guifg=#EEEEFF guibg=#006688 
+hi LineNr   guifg=#CCF0FF guibg=#006688 
 hi ModeMsg	guifg=#00AACC
 hi MoreMsg	guifg=SeaGreen
-hi NonText  guifg=#283940 guibg=#2C3F48 "same as background
+hi NonText  guifg=#283940 guibg=#253F49 "same as background """"""""""""""""  """""""""""""""  """""""""""""""  """""""""""""""  """""""""""""""  """""""""""""""  """"""""""""""""""""""
 hi Question	guifg=springgreen
-hi Search	guibg=#677990 guifg=wheat
+hi Search	guibg=slategrey guifg=#FFDABB
+hi IncSearch	guifg=slategrey guibg=#FFDFB0
 hi SpecialKey	guifg=#00CCBB " blue green
-hi StatusLine	guibg=#c2bfa5 guifg=black gui=none
-hi StatusLineNC	guibg=#c2bfa5 guifg=grey50 gui=none
-hi Title	guifg=#33AAFF       guibg=#353035
-hi Underlined      guifg=#3399FF guibg=#354045 gui=underline
+hi StatusLine	guibg=#00A0D0 guifg=#050709 gui=none
+hi StatusLineNC	guibg=#0595c0 guifg=#272324 gui=none
+hi Title	guifg=#33AAFF
 hi Visual   guifg=#008FBF guibg=#33DFEF
 "hi VisualNOS
 hi WarningMsg	guifg=salmon
@@ -55,13 +57,13 @@ hi WarningMsg	guifg=salmon
 "hi Tooltip
 
 " syntax highlighting groups
-hi Comment	  guifg=#77bbcc
-hi Underlined guifg=#00DDEE
-hi Statement  guifg=#FF8070
-hi PreProc    guifg=#FFA090 gui=NONE
-hi Constant	  guifg=#FF6959 " or #FF707A 
+hi Comment	  guifg=#69B9DA
+hi Underlined guifg=#33BBFF
+hi Statement  guifg=#FF836E
+hi PreProc    guifg=#FF8076 gui=NONE
+hi Constant	  guifg=#FF6B5B " or #FF707A 
 hi Identifier guifg=#FFDDEE
-hi Type		  guifg=#FFB999
+hi Type		  guifg=#FFB592
 hi Special	  guifg=navajowhite
 hi Ignore	guifg=grey40
 "hi Error
