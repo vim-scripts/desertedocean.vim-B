@@ -22,7 +22,7 @@ endif
 
 let g:colors_name="desertedocean"
 
-hi Normal	guifg=#FFE9E0 guibg=#102D33
+hi Normal	guifg=#FFFAF0 guibg=#102B33
 
 " highlight groups
 "hi Cursor	guibg=#660000 guifg=#AA5522
@@ -59,11 +59,11 @@ hi WarningMsg	guifg=salmon
 " syntax highlighting groups
 hi Comment	  guifg=#69B9DA
 hi Underlined guifg=#33BBFF
-hi Statement  guifg=#FF836E
-hi PreProc    guifg=#FF8076 gui=NONE
-hi Constant	  guifg=#FF6B5B " or #FF707A 
+hi Statement  guifg=#FF9085
+hi Type		  guifg=#FFBAA0
+hi PreProc    guifg=#FF809a gui=NONE
+hi Constant	  guifg=#FFb0c0 " or #FF707A 
 hi Identifier guifg=#FFDDEE
-hi Type		  guifg=#FFB592
 hi Special	  guifg=navajowhite
 hi Ignore	guifg=grey40
 "hi Error
